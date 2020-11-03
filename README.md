@@ -1,5 +1,5 @@
 # libasm
-## You must rewrite the following functions in asm:
+## Rewriting the following functions in asm:
 * ft_strlen (man 3 strlen)
 * ft_strcpy (man 3 strcpy)
 * ft_strcmp (man 3 strcmp)
