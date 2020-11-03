@@ -17,5 +17,7 @@ _cpy:
 	jmp _cpy
 	
 _end:
+	mov dl, byte[rsi + rcx]     
+	mov byte[rdi + rcx], dl
 	mov rax, rdi
 	ret
